@@ -33,11 +33,3 @@ body {
 .title-bar .btn:active {
   background-color: #3f3f3f;
 }
-.greeting {
-  text-align: center;
-  padding: 10px;
-}
-.surprise {
-  text-align: center;
-  padding: 10px;
-}

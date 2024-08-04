@@ -8,20 +8,31 @@
   </head>
   <body>
     <div class="title-bar">
-      <h1>Hi Mel, IT SHOULDN'T BE A FLASHBANG NOW</h1>
+      <h1 class="title">Crash (Melissa)</h1>
+      <button class="btn" onclick="redirectToPage('./games.html')">
+        Games we've played Together
+      </button>
     </div>
+    <script>
+      function redirectToPage(page) {
+        window.location.href = page;
+      }
+    </script>
     <div class="greeting">
       <p>
         Thank you for visiting my website. If you are not Crash, you are not
         welcome. (jk... or am I?)
       </p>
-      <p>Here's a little gift for you anyway you bubba:</p>
+      <p>Here's a little gift for you anyway, you bubba:</p>
       <img
         src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHh6dnU4c2dqbTBwY3AxdDFzaXU5MGVkMGc4Znl0ZzV3enF1dGM3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4pTdcifPZLpDjL1e/giphy.webp"
         alt="All my love for you gif"
       />
       <br />
-      <audio controls autoplay>
+    </div>
+    <div class="surprise">
+      <p>Click here for a Surprise! (Especially if your name is Elmo)</p>
+      <audio controls>
         <source
           src="./audio/spongebob-squarepants-closing-theme-song-made-with-Voicemod.mp3"
           type="audio/mp3"
